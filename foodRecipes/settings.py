@@ -91,7 +91,7 @@ WSGI_APPLICATION = 'foodRecipes.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
-
+DATABASES = {}
 DATABASE_URL = os.getenv('DATABASE_URL')
 
 if DATABASE_URL:
